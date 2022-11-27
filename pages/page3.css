@@ -33,3 +33,7 @@ body {
 	background-color: dodgerblue;
 	border-radius: 12px;
 }
+
+td img {
+	width: 100px;
+}
