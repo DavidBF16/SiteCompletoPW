@@ -55,6 +55,10 @@ tr {
 	border-bottom: 2px solid black;
 }
 
+thead tr:first-child {
+	border-top: 2px solid black;
+}
+
 th {
 	text-align: center;
 	margin-right: 20px;
