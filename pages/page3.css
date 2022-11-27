@@ -24,6 +24,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	color: black;
 }
 
 .melhorCooler:last-child {
@@ -34,7 +35,7 @@ body {
 	width: 225px;
 	height: 300px;
 	margin-right: 20px;
-	background-color: dodgerblue;
+	background: linear-gradient(rgb(228, 84, 84), rgb(141, 46, 46));
 	border-radius: 12px;
 }
 
@@ -44,23 +45,33 @@ td img {
 
 table {
 	margin: 0 auto;
-	background-color: dodgerblue;
+	background: linear-gradient(rgb(228, 84, 84), rgb(141, 46, 46));
 	border-radius: 12px;
 	padding: 10px;
+	color: black;
+}
+
+tr {
+	border-bottom: 2px solid black;
 }
 
 th {
 	text-align: center;
 	margin-right: 20px;
 	padding: 5px;
+	border-right: 2px solid black;
+}
+
+th:first-child {
+	border-left: 2px solid black;
 }
 
 td {
 	text-align: center;
 	margin-right: 20px;
 	padding: 5px;
-	border-right: 2px solid rgb(25, 85, 145);
+	border-right: 2px solid black;
 }
 td:first-child {
-	border-left: 2px solid rgb(25, 85, 145);
+	border-left: 2px solid black;
 }
