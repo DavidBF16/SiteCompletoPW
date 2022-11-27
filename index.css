@@ -24,9 +24,9 @@ a {
 
 .linkDiv {
 	background: linear-gradient(rgb(63, 157, 250), #1467bb);
-	width: 150px;
+	width: 275px;
 	height: 150px;
-	line-height: 120px;
+	line-height: 115px;
 	vertical-align: middle;
 	border-radius: 12px;
 	transition: 400ms;
@@ -38,7 +38,7 @@ a {
 }
 
 .linkDiv:hover {
-	width: 200px;
-	height: 200px;
-	line-height: 170px;
+	width: 300px;
+	height: 175px;
+	line-height: 140px;
 }

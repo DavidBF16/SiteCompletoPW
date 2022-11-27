@@ -1,0 +1,9 @@
+body {
+	font-family: calibri, arial, times, sans-serif;
+	background-color: rgb(12, 12, 12);
+	color: whitesmoke;
+}
+
+.center {
+	text-align: center;
+}
