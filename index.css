@@ -13,24 +13,32 @@ a {
 	color: black;
 }
 
-.linksContainer {
+.linkContainer {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
+	width: 500px;
+	height: 200px;
+	margin: 0 auto;
 }
 
 .linkDiv {
 	background: linear-gradient(rgb(63, 157, 250), #1467bb);
 	width: 150px;
-	height: 125px;
+	height: 150px;
 	line-height: 125px;
 	vertical-align: middle;
-	border-radius: 8px;
+	border-radius: 12px;
 	transition: 400ms;
+	margin-right: 20px;
+}
+
+.linkDiv:last-child {
+	margin-right: 0px;
 }
 
 .linkDiv:hover {
 	width: 200px;
-	height: 175px;
+	height: 200px;
 	line-height: 175px;
 }
