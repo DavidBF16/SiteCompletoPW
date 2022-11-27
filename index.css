@@ -16,7 +16,7 @@ a {
 .linkContainer {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 	width: 500px;
 	height: 200px;
 	margin: 0 auto;
