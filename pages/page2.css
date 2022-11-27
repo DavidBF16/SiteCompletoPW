@@ -8,41 +8,23 @@ body {
 	text-align: center;
 }
 
-a {
-	text-decoration: none;
-	color: black;
+.Gpuimg{
+	margin-top: 20px;
+	width: 200px;
 }
 
-.linkContainer {
+
+.MelhoresGPUscontainer{
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
-	width: 500px;
-	height: 200px;
-	margin: 0 auto;
+	justify-content: center;
+	text-align: center;
 }
 
-.linkDiv {
-	background: linear-gradient(rgb(63, 157, 250), #1467bb);
-	width: 150px;
-	height: 150px;
-	line-height: 120px;
-	vertical-align: middle;
-	border-radius: 12px;
-	transition: 400ms;
+.melhoresGPUs {
+	width: 225px;
+	height: 300px;
 	margin-right: 20px;
-}
-
-.linkDiv:last-child {
-	margin-right: 0px;
-}
-
-.linkDiv:hover {
-	width: 200px;
-	height: 200px;
-	line-height: 170px;
-}
-
-img{
-    size: 200px;
+	background-color: dodgerblue;
+	border-radius: 12px;
 }
