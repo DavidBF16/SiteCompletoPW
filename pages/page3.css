@@ -26,6 +26,10 @@ body {
 	text-align: center;
 }
 
+.melhorCooler:last-child {
+	margin-right: 0;
+}
+
 .melhorCooler {
 	width: 225px;
 	height: 300px;
@@ -36,4 +40,27 @@ body {
 
 td img {
 	width: 100px;
+}
+
+table {
+	margin: 0 auto;
+	background-color: dodgerblue;
+	border-radius: 12px;
+	padding: 10px;
+}
+
+th {
+	text-align: center;
+	margin-right: 20px;
+	padding: 5px;
+}
+
+td {
+	text-align: center;
+	margin-right: 20px;
+	padding: 5px;
+	border-right: 2px solid rgb(25, 85, 145);
+}
+td:first-child {
+	border-left: 2px solid rgb(25, 85, 145);
 }
