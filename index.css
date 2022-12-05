@@ -23,7 +23,8 @@ a {
 }
 
 .linkDiv {
-	background: linear-gradient(rgb(228, 84, 84), rgb(141, 46, 46));
+	background: linear-gradient(rgb(228, 84, 84), rgb(199, 73, 73));
+
 	width: 275px;
 	height: 150px;
 	line-height: 115px;

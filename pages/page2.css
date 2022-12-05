@@ -34,7 +34,7 @@ h2 {
 	height: 300px;
 	margin-right: 20px;
 	background-color: rgb(197, 67, 67);
-	background: linear-gradient(rgb(228, 84, 84), rgb(141, 46, 46));
+	background: linear-gradient(rgb(228, 84, 84), rgb(199, 73, 73));
 	border-radius: 12px;
 }
 
@@ -49,7 +49,7 @@ td img {
 table {
 	margin: 0 auto;
 	background-color: rgb(197, 67, 67);
-	background: linear-gradient(rgb(228, 84, 84), rgb(141, 46, 46));
+	background: linear-gradient(rgb(228, 84, 84), rgb(199, 73, 73));
 	border-radius: 12px;
 	padding: 10px;
 }
