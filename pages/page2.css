@@ -58,29 +58,18 @@ th {
 	text-align: center;
 	margin-right: 20px;
 	padding: 5px;
-	border-bottom: 2px solid black;
-	border-right: 2px solid black;
+	border: 2px solid black;
+	border-radius: 4px;
 }
 
-thead tr:first-child {
-	border-top: 2px solid black;
+thead {
+	border: 2px solid black;
 }
 
 td {
 	text-align: center;
 	margin-right: 20px;
 	padding: 5px;
-	border-right: 2px solid rgb(0, 0, 0);
-	border-bottom: 2px solid black;
-}
-td:first-child {
-	border-left: 2px solid rgb(0, 0, 0);
-}
-
-th:first-child {
-	border-left: 2px solid black;
-}
-
-tr {
-	border-bottom: 2px solid black;
+	border: 2px solid black;
+	border-radius: 4px;
 }
