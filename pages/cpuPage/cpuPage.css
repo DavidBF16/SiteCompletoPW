@@ -8,18 +8,17 @@ body {
     text-align: center;
   }
   
-  .coolerImg {
+  .CPUImg {
+    margin-top: 20px;
+    width: 100px;
+  }
+  
+  .aioImg {
     margin-top: 20px;
     width: 200px;
   }
   
-  .aioImg {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    width: 200px;
-  }
-  
-  .melhoresCoolersContainer {
+  .melhoresCPUsContainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,11 +26,11 @@ body {
     color: black;
   }
   
-  .melhorCooler:last-child {
+  .melhorCPU:last-child {
     margin-right: 0;
   }
   
-  .melhorCooler {
+  .melhorCPU {
     width: 225px;
     height: 300px;
     margin-right: 20px;
@@ -78,5 +77,18 @@ body {
     padding: 5px;
     border: 2px solid black;
     border-radius: 4px;
+  }
+  
+  div.listaContato {
+    margin: 0 auto;
+    width: 400px;
+    padding: 5px 15px;
+    color: black;
+    border-radius: 12px;
+    background: linear-gradient(rgb(228, 84, 84), rgb(199, 73, 73));
+  }
+  
+  div h3.listaContatoTxt {
+    text-align: center;
   }
   
